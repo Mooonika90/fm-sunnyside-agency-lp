@@ -102,7 +102,7 @@ body > header,
 	background-size: cover;
 }
 body > header {
-	background-image: url('śassets/desktop/image-header.jpg');
+	background-image: url('assets/desktop/image-header.jpg');
 	height: 44.5rem;
 	max-height: 100%;
 }
