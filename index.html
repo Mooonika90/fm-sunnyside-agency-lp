@@ -22,7 +22,6 @@
     <header>
 
         <nav id="mainMenu">
-            <a href="#" hidden>x</a>
             <img class="logo" src="assets/logo.svg" alt="logo">
             <div>
                 <ul>
@@ -40,7 +39,7 @@
     </header>
 
     <main>
-         <section id="aboutus">
+        <section id="aboutus">
             <article class="aboutus-transform">
                 <picture>
                     <source media="(max-width:1000px)" srcset="assets/mobile/image-transform.jpg">
@@ -53,7 +52,6 @@
                         Engage your clients through compelling visuals that do most of the marketing for you.</p>
                     <a href="/">Learn more</a>
                 </div>
-
 
 
             </article>
@@ -131,10 +129,22 @@
             </article>
         </section>
         <section id="projects">
-            <div class="gallery-bottles"></div>
-            <div class="gallery-orange"></div>
-            <div class="gallery-cone"></div>
-            <div class="gallery-sugar"></div>
+            <picture class="gallery-bottles">
+                <source media="(max-width:750px)" srcset="assets/mobile/image-gallery-milkbottles.jpg">
+                <img src="assets/desktop/image-gallery-milkbottles.jpg" alt="Milk">
+            </picture>
+            <picture class="gallery-orange">
+                <source media="(max-width:750px)" srcset="assets/mobile/image-gallery-orange.jpg">
+                <img src="assets/desktop/image-gallery-orange.jpg" alt="Orange">
+            </picture>
+            <picture class="gallery-cone">
+                <source media="(max-width:750px)" srcset="assets/mobile/image-gallery-cone.jpg">
+                <img src="assets/desktop/image-gallery-cone.jpg" alt="Cone">
+            </picture>
+            <picture class="gallery-sugar">
+                <source media="(max-width:750px)" srcset="assets/mobile/image-gallery-sugar-cubes.jpg">
+                <img src="assets/desktop/image-gallery-sugarcubes.jpg" alt="Sugar">
+            </picture>
 
         </section>
     </main>
