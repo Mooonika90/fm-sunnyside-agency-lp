@@ -102,7 +102,7 @@ body > header,
 	background-size: cover;
 }
 body > header {
-	background-image: url('/assets/desktop/image-header.jpg');
+	background-image: url('śassets/desktop/image-header.jpg');
 	height: 44.5rem;
 	max-height: 100%;
 }
@@ -279,10 +279,10 @@ body > header nav ul {
 	align-items: center;
 }
 .cherry {
-	background-image: url('/assets/desktop/image-graphic-design.jpg');
+	background-image: url('assets/desktop/image-graphic-design.jpg');
 }
 .orange {
-	background-image: url('/assets/desktop/image-photography.jpg');
+	background-image: url('assets/desktop/image-photography.jpg');
 }
 #testimonials {
 	padding: 8rem 0;
@@ -436,7 +436,7 @@ footer .logo {
 	}
 
 	body header {
-		background-image: url('/assets/mobile/image-header.jpg');
+		background-image: url('assets/mobile/image-header.jpg');
 	}
 	#aboutus article {
 		display: block;
@@ -461,10 +461,10 @@ footer .logo {
 	}
 
 	.cherry {
-		background-image: url('/assets/mobile/image-graphic-design.jpg');
+		background-image: url('assets/mobile/image-graphic-design.jpg');
 	}
 	.orange {
-		background-image: url('/assets/mobile/image-photography.jpg');
+		background-image: url('assets/mobile/image-photography.jpg');
 	}
 
 	#testimonials article {
